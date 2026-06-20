@@ -26,6 +26,10 @@ export const metadata: Metadata = {
   description:
     "RentAL is a modern room and rental listing platform. Find affordable rooms, flats, and PGs near you with ease.",
 
+    verification: {
+    google: "tZHnvI13wUubxPIoQ-CzxdOHzZ9ozwzoO-lxnd3D8tM",
+  },
+
   keywords: [
     "room rental",
     "PG in India",
@@ -42,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-domain.com",
+    url: "https://rental-nepal.vercel.app",
     siteName: "RentAL",
     title: "RentAL - Find Rooms & Rentals Easily",
     description:
@@ -71,7 +75,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
 
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://rental-nepal.vercel.app"),
 }
 
 export default function RootLayout({
