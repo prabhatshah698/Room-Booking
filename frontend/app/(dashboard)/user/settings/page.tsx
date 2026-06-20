@@ -28,7 +28,7 @@ export default function UserSettingsPage() {
     localStorage.removeItem("role");
     localStorage.removeItem("userId");
 
-    window.location.href = "/login";
+    window.location.href = "/login/user";
   };
 
   const deleteAccount = async () => {

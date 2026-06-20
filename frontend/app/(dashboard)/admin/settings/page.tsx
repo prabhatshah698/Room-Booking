@@ -73,7 +73,7 @@ export default function AdminSettingsPage() {
   const logout = () => {
     localStorage.removeItem("token")
     localStorage.removeItem("role")
-    window.location.href = "/login"
+    window.location.href = "/"
   }
 
   const deleteAccount = async () => {
