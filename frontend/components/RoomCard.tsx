@@ -204,7 +204,7 @@ export default function RoomCard({
   font-medium
   "
         >
-          Electricity: ₹{room.electricity_charge}/month
+          Electricity: RS{room.electricity_charge}/month
         </p>
 
         {/* LOCATION */}
