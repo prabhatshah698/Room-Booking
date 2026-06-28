@@ -144,7 +144,7 @@ export default function RoomCard({
           text-black
           "
         >
-          ₹ {room.price}
+          RS {room.price}
         </h2>
 
         {/* DETAILS */}
@@ -244,7 +244,7 @@ export default function RoomCard({
             uppercase
             "
           >
-            TODAY
+            
           </span>
 
         </div>
