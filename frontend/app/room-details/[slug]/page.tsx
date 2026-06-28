@@ -244,14 +244,14 @@ export default function RoomDetailsPage() {
               {/* PRICE */}
               <div className="bg-white rounded-3xl p-6 shadow">
                 <div className="flex items-center gap-2">
-                  <IndianRupee />
+                  RS 
                   <span className="text-4xl font-bold">
                     {room.price}
                   </span>
                 </div>
 
                 <p className="mt-3 text-gray-600">
-                  Electricity: ₹{room.electricity_charge}
+                  Electricity: RS {room.electricity_charge}
                 </p>
 
                 <p className="text-gray-600">
